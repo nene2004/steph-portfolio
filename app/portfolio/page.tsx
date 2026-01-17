@@ -345,7 +345,7 @@ function AboutWriter() {
 
       <motion.div className="mt-6" variants={lineVariant}>
         <a
-          href="/resume.pdf"
+          href="/Stephenie_Michael_Resume.pdf"
           target="_blank"
           className="inline-flex items-center gap-3 rounded-lg border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-900 shadow-sm hover:border-pink-500 hover:text-pink-700 hover:shadow-md transition"
         >
