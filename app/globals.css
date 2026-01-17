@@ -1,20 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --bg: 9 9 12;
-  --fg: 248 248 252;
-  --muted: 175 175 190;
-  --card: 18 18 24;
-  --border: 44 44 58;
-
-  --accent: 255 105 180;  
-  --accent2: 176 120 255;
-  --mint: 0 255 200;
+html {
+  scroll-behavior: smooth;
 }
 
-html,
+:root {
+  --lux-bg: 246 243 255;     /* pearl lavender */
+  --lux-card: 255 255 255;   /* white */
+  --lux-text: 15 23 42;      /* slate-900 */
+  --lux-muted: 71 85 105;    /* slate-600 */
+
+  --pink: 251 113 133;       /* rose-400 */
+  --violet: 109 40 217;      /* violet-700 */
+}
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100%;
 }
